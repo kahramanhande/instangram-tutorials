@@ -1,5 +1,5 @@
 //Hello World!
-//Today we are going to learn about find()
+//Today we are going to learn about filter()
 
 const meals = [
     { name: "Hamburger", vegetarian: false },
@@ -8,7 +8,10 @@ const meals = [
     { name: "Salad", vegetarian: true },
 ]
 
+//Why do we use filter()?
+//We use filter when we want to....
+
 //filter return whatever is true
-//I want an array of vegetarian meal
+//For example, I want an array of vegetarian meal
 const vegetarianMeals = meals.filter(data => data.vegetarian)
 console.log(vegetarianMeals)
