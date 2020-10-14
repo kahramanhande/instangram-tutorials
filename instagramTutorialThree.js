@@ -8,7 +8,9 @@ const travelDestination = [
     { country: "Finland", weather: "snowy"}
 ]
 
+//So what does actually find() do?
 //find returns the first object that matched the condition
+
 //I want an object with a country where the weather === sunny
 const sunnyDestination = travelDestination.find(data => data.weather === "sunny")
 console.log(sunnyDestination)
