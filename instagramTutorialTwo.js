@@ -8,6 +8,9 @@ const scheduleAtCodaisseur = [
     { date: "Week-5", teacher: "Jeroen", subject: "redux"}
 ]
 
+//Why do we use map()?
+//We use map() when we want to...
+
 //I want an array with the subjects
 const whatILearnAtCodaisseur = scheduleAtCodaisseur.map(data => data.subject)
 
